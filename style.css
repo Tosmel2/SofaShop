@@ -58,13 +58,11 @@
 }
 .hero-container .sofa-right ul{
   display: flex;
-  border: 2px solid blue;
   justify-content: right;
   /* align-items: center; */
 }
 .hero-container .sofa-right ul li{
   list-style: none;
-  border: 2px solid red;
   background-color: #fff;
   padding: 10px;
 }
