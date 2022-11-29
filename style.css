@@ -8,7 +8,7 @@
 .hero-container{
   width: 100%;
   height: 100vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
 }
 .hero-container .sofa-left{
@@ -36,7 +36,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .hero-container .sofa-middle{
   width: 15%;
@@ -56,13 +56,13 @@
 .hero-container .sofa-right{
   width: 75%;
   height: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
 }
 .hero-container .sofa-right .sofa-rightbg {
   width: 100%;
   height: 90%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: url('./img/img1.png') no-repeat center center/cover;
 }
 .hero-container .sofa-rightbg ul{
@@ -84,7 +84,7 @@
   position: absolute;
   right: 2%;
   bottom: 7%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 600;
