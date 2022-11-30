@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Rubik&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Rubik&display=swap'); */
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 
 .hero-container{
   width: 100%;
-  height: 800px;
+  height: 100vh;
   /* border: 2px solid red; */
   display: flex;
 }
@@ -23,6 +23,51 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+
+/* ==========social============ */
+.sofa-left .sofa-leftsocial .social a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-decoration: none;
+    line-height: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B8B8B;
+    transform: rotate(-90deg);
+    position: absolute;
+    height: 12px;
+    transition: 0.5s;
+    /* border: 2px solid red; */
+}
+
+.sofa-leftsocial .social a:hover{
+    font-size: 12px;
+}
+
+.sofa-leftsocial .instagram a {
+    left: 1.5%;
+    top: 50%;
+}
+
+.sofa-leftsocial .twitter a {
+    left: 2.5%;
+    top: 65%;
+}
+
+.sofa-leftsocial .facebook a {
+    left: 2%;
+    top: 80%;
+}
+
+.sofa-leftsocial .social-line {
+    height: 50px;
+    border-left: 2px solid #91949A;
+}
+
+
 .hero-container .sofa-left .sofa-leftsocial{
   display: flex;
   flex-direction: column;
@@ -86,25 +131,28 @@
 .hero-container .sofa-rightbg ul li{
   list-style: none;
   background-color: #fff;
-  padding: 15px 20px;
+  padding: 20px;
+}
+.hero-container .sofa-rightbg ul li:hover{
+  background-color: #FDAF32;
 }
 .sofa-rightbg ul li a{
   text-decoration: none;
   color: #000;
   font-size: 15px;
   font-weight: 600;
+  font-family: 'Roboto Slab', serif;
 }
 .sofa-rightbg .sofa-rightnum{
   position: absolute;
   right: 1%;
-  bottom: -10%;
+  bottom: 7%;
   /* border: 2px solid red; */
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 600;
   font-size: 100px;
   color: rgba(255, 255, 255, 0.314194);
-
 }
 .sofa-right .sofa-button{
   display: flex;
@@ -116,8 +164,8 @@
 }
 .sofa-right .sofa-textbox{
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 31%;
+  left: 45%;
 }
 .sofa-right .sofa-textbox h1{
   font-size: 55px;
@@ -136,15 +184,15 @@
 .sofa-placecard{
   position: absolute;
   left: 30%;
-  bottom: 50%;
+  bottom: 20%;
   background-color: #fff;
-  padding: 2rem 2.5rem;
+  padding: 0.8rem 1rem;
   border-left: 10px solid #E48A00;
 }
 .sofa-placecard h3{
   color: #8B8B8B;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .sofa-placecard p{
   margin-bottom: 20px;
@@ -155,7 +203,7 @@
   font-size: 25px;
   font-weight: 600;
   font-family: 'Roboto Slab', serif;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .sofa-placecard a{
   text-decoration: none;
